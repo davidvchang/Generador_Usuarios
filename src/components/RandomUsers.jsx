@@ -73,7 +73,7 @@ function RandomUsers() {
   return (
     <>
       {user ? (
-        <div className='w-80 h-auto flex flex-col items-center justify-center rounded-2xl p-5 shadow-2xl bg-slate-50 dark:bg-slate-300'>
+        <div className='w-80 h-auto flex flex-col items-center justify-center rounded-2xl p-5 shadow-2xl bg-slate-300 dark:bg-slate-50'>
           <div className='w-32 h-32  rounded-full'>
             <img src={user.picture} alt="" className='w-32 h-32 rounded-full border shadow'/>
           </div>
